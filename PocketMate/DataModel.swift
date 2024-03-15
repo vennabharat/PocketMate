@@ -69,7 +69,6 @@ class DataModel: ObservableObject {
     
     func updateIncome(item: Income, context: NSManagedObjectContext, source: String, income: Double, dateAdded: Date, dateModified: Date) {
         
-        item.id = UUID()
         item.source = source
         item.income = income
         item.dateAdded = dateAdded

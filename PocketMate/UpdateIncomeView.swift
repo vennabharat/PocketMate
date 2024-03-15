@@ -9,8 +9,6 @@ import SwiftUI
 
 struct UpdateIncomeView: View {
     
-    @Environment(\.dismiss) var dismiss
-    
     @State var source: String
     @State var income: Double
     @State var dateAdded: Date
@@ -19,6 +17,7 @@ struct UpdateIncomeView: View {
     @FocusState private var keyboardFocus: Bool
     
     @Environment(\.managedObjectContext) var moc
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         VStack {

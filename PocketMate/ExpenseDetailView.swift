@@ -88,6 +88,7 @@ struct ExpenseDetailView: View {
             UpdateExpenseView(expense: expense, cost: cost, dateAdded: dateAdded, category: category, expenseItem: expenseItem)
         }
         
+        
     }
 }
 
