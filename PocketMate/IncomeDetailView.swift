@@ -53,6 +53,15 @@ struct IncomeDetailView: View {
                         RoundedRectangle(cornerRadius: 8)
                             .stroke(.gray, lineWidth: 2)
                     )
+                if(incomeItem.dateModified != nil) {
+                    Text("Modified on: \(incomeItem.dateModified!.formatted(date: .abbreviated, time: .omitted))")
+                        .frame(width: UIScreen.main.bounds.width-100)
+                        .padding()
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 8)
+                                .stroke(.gray, lineWidth: 2)
+                        )
+                }
             }
             .padding(.horizontal)
             
@@ -75,7 +84,7 @@ struct IncomeDetailView: View {
                 }
         }
         .sheet(isPresented: $showEditView) {
-            UpdateIncomeView(source: source, income: income, dateAdded: dateAdded, incomeItem: incomeItem)
+            UpdateIncomeView(source: $source, income: $income, dateAdded: $dateAdded, incomeItem: $incomeItem)
         }
     }
 }

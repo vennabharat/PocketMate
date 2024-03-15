@@ -62,6 +62,16 @@ struct ExpenseDetailView: View {
                             RoundedRectangle(cornerRadius: 8)
                                 .stroke(.gray, lineWidth: 2)
                         )
+                    
+                    if(expenseItem.dateModified != nil) {
+                        Text("Modified on: \(expenseItem.dateModified!.formatted(date: .abbreviated, time: .omitted))")
+                            .frame(width: UIScreen.main.bounds.width-100)
+                            .padding()
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 8)
+                                    .stroke(.gray, lineWidth: 2)
+                            )
+                    }
                 }
                 .padding(.horizontal)
             }
@@ -85,7 +95,7 @@ struct ExpenseDetailView: View {
                 }
         }
         .sheet(isPresented: $showEditView) {
-            UpdateExpenseView(expense: expense, cost: cost, dateAdded: dateAdded, category: category, expenseItem: expenseItem)
+            UpdateExpenseView(expense: $expense, cost: $cost, dateAdded: $dateAdded, category: $category, expenseItem: $expenseItem)
         }
         
         

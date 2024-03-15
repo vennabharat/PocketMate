@@ -9,10 +9,10 @@ import SwiftUI
 
 struct UpdateIncomeView: View {
     
-    @State var source: String
-    @State var income: Double
-    @State var dateAdded: Date
-    @State var incomeItem: Income
+    @Binding var source: String
+    @Binding var income: Double
+    @Binding var dateAdded: Date
+    @Binding var incomeItem: Income
     
     @FocusState private var keyboardFocus: Bool
     
@@ -92,6 +92,6 @@ struct UpdateIncomeView: View {
 
 struct UpdateIncomeView_Previews: PreviewProvider {
     static var previews: some View {
-        UpdateIncomeView(source: "Job", income: 39500.0, dateAdded: Date.now, incomeItem: Income())
+        UpdateIncomeView(source: .constant("Job"), income: .constant(39500.0), dateAdded: .constant(Date.now), incomeItem: .constant(Income()))
     }
 }

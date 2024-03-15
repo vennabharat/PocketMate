@@ -15,11 +15,11 @@ struct UpdateExpenseView: View {
     
     @State private var symbol = false
     
-    @State var expense: String
-    @State var cost: Double
-    @State var dateAdded: Date
-    @State var category: String
-    @State var expenseItem: Expense
+    @Binding var expense: String
+    @Binding var cost: Double
+    @Binding var dateAdded: Date
+    @Binding var category: String
+    @Binding var expenseItem: Expense
     
     @FocusState private var keyboardFocus: Bool
     
@@ -122,6 +122,6 @@ struct UpdateExpenseView: View {
 
 struct UpdateExpenseView_Previews: PreviewProvider {
     static var previews: some View {
-        UpdateExpenseView(expense: "Rice", cost: 100.0, dateAdded: Date.now, category: "Food", expenseItem: Expense())
+        UpdateExpenseView(expense: .constant("Rice"), cost: .constant(100.0), dateAdded: .constant(Date.now), category: .constant("Food"), expenseItem: .constant(Expense()))
     }
 }
