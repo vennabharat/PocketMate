@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct PocketMateApp: App {
+    
+    @StateObject private var dataController = DataModel.expensesdata
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }

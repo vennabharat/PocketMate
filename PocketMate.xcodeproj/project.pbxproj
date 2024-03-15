@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		860E109E2B9B6D0D006DA662 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860E109D2B9B6D0D006DA662 /* AddExpenseView.swift */; };
+		860E10A02B9B6F04006DA662 /* AddIncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860E109F2B9B6F04006DA662 /* AddIncomeView.swift */; };
+		860E10A32B9B6FEA006DA662 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 860E10A12B9B6FEA006DA662 /* DataModel.xcdatamodeld */; };
+		861191B12BA00A1D008367EE /* ExpenseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861191B02BA00A1D008367EE /* ExpenseDetailView.swift */; };
+		861191B32BA01786008367EE /* IncomeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861191B22BA01786008367EE /* IncomeDetailView.swift */; };
+		86746EC32B9B395B00618ECC /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86746EC22B9B395B00618ECC /* ExpensesView.swift */; };
+		86746EC52B9B396F00618ECC /* IncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86746EC42B9B396F00618ECC /* IncomeView.swift */; };
+		86746EC72B9B398300618ECC /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86746EC62B9B398300618ECC /* StatisticsView.swift */; };
+		86746EC92B9B39A300618ECC /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86746EC82B9B39A300618ECC /* UserView.swift */; };
+		868B8AB72BA304C200B65849 /* UpdateExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B8AB62BA304C200B65849 /* UpdateExpenseView.swift */; };
+		868B8AB92BA304D400B65849 /* UpdateIncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868B8AB82BA304D400B65849 /* UpdateIncomeView.swift */; };
+		8692838C2B9C0F7B0025064D /* TextEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8692838B2B9C0F7B0025064D /* TextEditorView.swift */; };
+		86976BC72B9B7B2D006122C3 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86976BC62B9B7B2D006122C3 /* DataModel.swift */; };
 		86A4D8722B98E126008D726B /* PocketMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A4D8712B98E126008D726B /* PocketMateApp.swift */; };
 		86A4D8742B98E126008D726B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A4D8732B98E126008D726B /* ContentView.swift */; };
 		86A4D8762B98E12B008D726B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A4D8752B98E12B008D726B /* Assets.xcassets */; };
@@ -14,6 +27,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		860E109D2B9B6D0D006DA662 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		860E109F2B9B6F04006DA662 /* AddIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIncomeView.swift; sourceTree = "<group>"; };
+		860E10A22B9B6FEA006DA662 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		861191B02BA00A1D008367EE /* ExpenseDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseDetailView.swift; sourceTree = "<group>"; };
+		861191B22BA01786008367EE /* IncomeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeDetailView.swift; sourceTree = "<group>"; };
+		86746EC22B9B395B00618ECC /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		86746EC42B9B396F00618ECC /* IncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeView.swift; sourceTree = "<group>"; };
+		86746EC62B9B398300618ECC /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		86746EC82B9B39A300618ECC /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		868B8AB62BA304C200B65849 /* UpdateExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateExpenseView.swift; sourceTree = "<group>"; };
+		868B8AB82BA304D400B65849 /* UpdateIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateIncomeView.swift; sourceTree = "<group>"; };
+		8692838B2B9C0F7B0025064D /* TextEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorView.swift; sourceTree = "<group>"; };
+		86976BC62B9B7B2D006122C3 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		86A4D86E2B98E126008D726B /* PocketMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A4D8712B98E126008D726B /* PocketMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketMateApp.swift; sourceTree = "<group>"; };
 		86A4D8732B98E126008D726B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +79,19 @@
 			children = (
 				86A4D8712B98E126008D726B /* PocketMateApp.swift */,
 				86A4D8732B98E126008D726B /* ContentView.swift */,
+				860E109D2B9B6D0D006DA662 /* AddExpenseView.swift */,
+				86746EC22B9B395B00618ECC /* ExpensesView.swift */,
+				861191B02BA00A1D008367EE /* ExpenseDetailView.swift */,
+				868B8AB62BA304C200B65849 /* UpdateExpenseView.swift */,
+				860E109F2B9B6F04006DA662 /* AddIncomeView.swift */,
+				86746EC42B9B396F00618ECC /* IncomeView.swift */,
+				861191B22BA01786008367EE /* IncomeDetailView.swift */,
+				868B8AB82BA304D400B65849 /* UpdateIncomeView.swift */,
+				86746EC62B9B398300618ECC /* StatisticsView.swift */,
+				86746EC82B9B39A300618ECC /* UserView.swift */,
+				86976BC62B9B7B2D006122C3 /* DataModel.swift */,
+				860E10A12B9B6FEA006DA662 /* DataModel.xcdatamodeld */,
+				8692838B2B9C0F7B0025064D /* TextEditorView.swift */,
 				86A4D8752B98E12B008D726B /* Assets.xcassets */,
 				86A4D8772B98E12B008D726B /* Preview Content */,
 			);
@@ -137,7 +176,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861191B12BA00A1D008367EE /* ExpenseDetailView.swift in Sources */,
 				86A4D8742B98E126008D726B /* ContentView.swift in Sources */,
+				861191B32BA01786008367EE /* IncomeDetailView.swift in Sources */,
+				86746EC92B9B39A300618ECC /* UserView.swift in Sources */,
+				86746EC72B9B398300618ECC /* StatisticsView.swift in Sources */,
+				86746EC52B9B396F00618ECC /* IncomeView.swift in Sources */,
+				860E109E2B9B6D0D006DA662 /* AddExpenseView.swift in Sources */,
+				86976BC72B9B7B2D006122C3 /* DataModel.swift in Sources */,
+				860E10A02B9B6F04006DA662 /* AddIncomeView.swift in Sources */,
+				860E10A32B9B6FEA006DA662 /* DataModel.xcdatamodeld in Sources */,
+				868B8AB72BA304C200B65849 /* UpdateExpenseView.swift in Sources */,
+				868B8AB92BA304D400B65849 /* UpdateIncomeView.swift in Sources */,
+				8692838C2B9C0F7B0025064D /* TextEditorView.swift in Sources */,
+				86746EC32B9B395B00618ECC /* ExpensesView.swift in Sources */,
 				86A4D8722B98E126008D726B /* PocketMateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +325,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -284,7 +337,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,6 +355,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,7 +367,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -339,6 +393,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		860E10A12B9B6FEA006DA662 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				860E10A22B9B6FEA006DA662 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 860E10A22B9B6FEA006DA662 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 86A4D8662B98E126008D726B /* Project object */;
 }
