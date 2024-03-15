@@ -6,18 +6,17 @@
 //
 
 import SwiftUI
-import CoreData
 
 struct ExpensesView: View {
     
-    init(){
-        UITableView.appearance().backgroundColor = .clear
-        UITableViewCell.appearance().backgroundColor = .clear
-        UINavigationBar.appearance().largeTitleTextAttributes = [
-            .foregroundColor: UIColor.purple,
-            .font: UIFont(name:"Papyrus", size: 40) ?? UIFont.systemFont(ofSize:40)]
-        
-    }
+//    init(){
+//        UITableView.appearance().backgroundColor = .clear
+//        UITableViewCell.appearance().backgroundColor = .clear
+//        UINavigationBar.appearance().largeTitleTextAttributes = [
+//            .foregroundColor: UIColor.purple,
+//            .font: UIFont(name:"Papyrus", size: 40) ?? UIFont.systemFont(ofSize:40)]
+//
+//    }
     
     @State private var showAddExpenseView = false
     
@@ -114,9 +113,7 @@ struct ExpensesView: View {
             }
             
             .navigationBarHidden(true)
-            .background(Color.clear)
         }
-        .background(Color.clear)
         .sheet(isPresented: $showAddExpenseView) {
             AddExpenseView()
         }

@@ -64,7 +64,6 @@ struct AddExpenseView: View {
                     .focused($keyboardFocus)
                 
                 VStack {
-                    ZStack {
                         HStack {
                             Text("Select Category:")
                                 .font(.system(size: 20))
@@ -90,7 +89,7 @@ struct AddExpenseView: View {
                         )
                         .padding()
                         
-                    }
+                    
                 }
                 
                 VStack {
@@ -125,6 +124,5 @@ struct AddExpenseView: View {
 struct AddExpenseView_Previews: PreviewProvider {
     static var previews: some View {
         AddExpenseView()
-            .preferredColorScheme(.dark)
     }
 }

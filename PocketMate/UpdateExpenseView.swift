@@ -65,7 +65,6 @@ struct UpdateExpenseView: View {
                     .focused($keyboardFocus)
                 
                 VStack {
-                    ZStack {
                         HStack {
                             Text("Select Category:")
                                 .font(.system(size: 20))
@@ -90,8 +89,6 @@ struct UpdateExpenseView: View {
                                 .stroke(.gray, lineWidth: 2)
                         )
                         .padding()
-                        
-                    }
                 }
                 
                 VStack {

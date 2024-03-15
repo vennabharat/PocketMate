@@ -51,6 +51,7 @@ struct UpdateIncomeView: View {
             .padding(.leading, 10)
             .padding(.trailing, 10)
             .padding(.top, 20)
+            
             Spacer()
             
             ScrollView {
