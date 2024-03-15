@@ -12,6 +12,7 @@ struct IncomeDetailView: View {
     @State var source: String
     @State var income: Double
     @State var dateAdded: Date
+    @State var incomeItem: Income
     
     @State private var showEditView = false
     
@@ -74,13 +75,13 @@ struct IncomeDetailView: View {
                 }
         }
         .sheet(isPresented: $showEditView) {
-            UpdateIncomeView()
+            UpdateIncomeView(source: source, income: income, dateAdded: dateAdded, incomeItem: incomeItem)
         }
     }
 }
 
 struct IncomeDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        IncomeDetailView(source: "Business", income: 20000.0, dateAdded: Date.now)
+        IncomeDetailView(source: "Business", income: 20000.0, dateAdded: Date.now, incomeItem: Income())
     }
 }

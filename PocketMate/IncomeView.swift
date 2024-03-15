@@ -67,7 +67,7 @@ struct IncomeView: View {
                     VStack {
                         List {
                             ForEach(income) { item in
-                                NavigationLink(destination: IncomeDetailView(source: item.source!, income: item.income, dateAdded: item.dateAdded!)) {
+                                NavigationLink(destination: IncomeDetailView(source: item.source!, income: item.income, dateAdded: item.dateAdded!, incomeItem: item)) {
                                     HStack {
                                         VStack(alignment: .leading) {
                                             Text(item.source!)
