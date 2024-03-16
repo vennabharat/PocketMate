@@ -52,8 +52,8 @@ struct AddExpenseView: View {
                         .frame(width: 60)
                 }
             }
-            .padding(.leading, 10)
-            .padding(.trailing, 10)
+//            .padding(.leading, 10)
+//            .padding(.trailing, 10)
             .padding(.top, 20)
             
             Spacer()

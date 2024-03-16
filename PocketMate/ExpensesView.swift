@@ -68,8 +68,8 @@ struct ExpensesView: View {
                             
                         }
                     }
-                    .padding(.leading, 10)
-                    .padding(.trailing, 10)
+//                    .padding(.leading, 10)
+//                    .padding(.trailing, 10)
                     
                     Spacer()
                     
